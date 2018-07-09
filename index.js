@@ -1,14 +1,14 @@
 var recipes = {};
 
-var updateObjectWithKeyAndValue = function(o,k,v){
+var updateObjectWithKeyAndValue = function(object,key,value){
   
-  o.k = v;
-  
+  object.key = value;
+  return object;
 }
 
-var destructivelyUpdateObjectWithKeyAndValue = function(o,k,v){
+var destructivelyUpdateObjectWithKeyAndValue = function(object,key,valuev){
   
-  o.k = v;
-  return o;
+  object.key = value;
+  return object;;
 }
 
